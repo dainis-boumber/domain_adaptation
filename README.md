@@ -1,1 +1,9 @@
-# Domain Adaptation Algorithms used for Active Learning on Mars and Supernova Ia datasets
+# Domain Adaptation by Transferring Model-Complexity Priors Across Tasks
+
+*Authors:*
+
+- Ricardo Vilalta
+- Kinjal Dhar Gupta
+- Dainis Boumber
+- Mikhail M.Meskhi
+
