@@ -1,4 +1,5 @@
 function [acc,acc_ite,A] = JDA(X_src,Y_src,X_tar,Y_tar,options)
+    tic;
     % Inputs:
     %%% X_src  :source feature matrix, ns * m
     %%% Y_src  :source label vector, ns * 1
@@ -32,9 +33,10 @@ function [acc,acc_ite,A] = JDA(X_src,Y_src,X_tar,Y_tar,options)
         acc = length(find(Y_tar_pseudo==Y_tar))/length(Y_tar); 
         fprintf('JDA+NN=%0.4f\n',acc);
         acc_ite = [acc_ite;acc];
-	end
-
+    end
+    toc;
 end
+
 
 function [Z,A] = JDA_core(X_src,Y_src,X_tar,Y_tar_pseudo,options)
 	%% Set options
