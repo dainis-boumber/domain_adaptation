@@ -1,2 +1,0 @@
-JDA Accuracy = 0.806000
-JDA Exection Time Average = 4.940894
